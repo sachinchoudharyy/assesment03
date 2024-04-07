@@ -25,6 +25,8 @@ INSERT INTO sales (sale_id, product_id, sale_date, quantity, price) VALUES
 (3, 3, '2024-01-03', 3, 150.00);
 
 
+
+
 SELECT 
     p.category,
     SUM(s.quantity * s.price) AS TotalRevenue
